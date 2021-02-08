@@ -3,7 +3,7 @@
 using namespace std;
 
 bool isFullTithePayer(int tithe, int income){
-    if (tithe == income / .1){
+    if (tithe == income * .1){
         return true;
     }
     else{
